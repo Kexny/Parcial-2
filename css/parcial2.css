@@ -1,0 +1,125 @@
+
+body {
+    font-family: 'Pixelify Sans';
+    background: linear-gradient( 245.59deg, #4d9559 0%, #80c71f 28.53%, #5d7c15 75.52%);
+}
+
+
+header {
+    height: 100px;
+    margin: 20px;
+    background: linear-gradient( 245.59deg, #e3c099 0%, #c38452 28.53%, #6b3e2e 75.52%);  
+    padding: 5px;
+    min-width: 250px;
+}
+
+.logo {
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+
+.titulo {
+    float: left;
+    width: 60%;
+    padding-left: 10%;
+}
+
+.logo1 {
+    float: right;
+    width: 20%;
+    height: 20%;
+    bottom: 100%;
+}
+
+#menu{
+    float: right;
+}
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.izquierda {
+    background: #5d7c15;
+    flex: 2;
+    bottom: 1;
+    height: 500px;
+    width: 50%;
+    padding: 20px; 
+    margin: 20px;
+    min-width: 250px;
+}
+
+.veint {
+    padding-left: 100;
+    float: right ;
+    height: 50%;
+    width: 60%;
+    margin-bottom: 20px;
+    margin-right: 5%;
+    background-image: url(https://i0.wp.com/www.gamerfocus.co/wp-content/uploads/2023/10/minecrat-mobs-criaturas-votar-2023.jpg);
+    background-size: 100% 100%;
+    border-bottom-right-radius: 30%; 
+    border-top-right-radius: 30%;   
+}
+
+.text1 {
+    float: left;
+    text-align: justify;
+    justify-content:space-evenly;
+    background-color: #ffffff;
+    border: 4px solid black;
+    padding: 5px;
+}
+
+.textc {
+    float: left;
+    margin-right: 25%;
+    margin-left: 25%;
+    text-align: justify;
+    justify-content:space-evenly;
+    background-color: #ffffff;
+    border: 4px solid black;
+    padding: 5px;
+    position: static;
+}
+
+.derecha {
+    background: #80c71f;
+    flex: 2;
+    bottom: 1;
+    height: 500px;
+    width: 50%;
+    padding: 20px;
+    margin: 20px;
+    min-width: 250px;
+}
+
+.amatsu {
+    height: 40%;
+    width: 70%;
+    margin: 50;
+    padding: 20;
+    margin-top: 30%;
+    background-color: aliceblue;
+}
+
+.centro {
+    float:right ;
+    height: 160px;
+    width: 100%;
+    margin: 25px;
+}
+
+footer {
+    top: 10;
+    background:  linear-gradient( 245.59deg, #1d1c21 0%, #9c9d97 28.53%, #f9ffff 75.52%);
+    color:black;
+    height: 10%;
+    width: 97.5%;
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+}
